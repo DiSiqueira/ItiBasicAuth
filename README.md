@@ -15,7 +15,7 @@ ItiBasicAuth is stable. Pull Requests [are welcome](https://github.com/DiSiqueir
 ### Go Get
 
 ```bash
-$ go get github.com/DiSiqueira/ItiBasicAuth
+$ go get github.com/DiSiqueira/itibasicauth
 ```
 
 ## Basic usage
