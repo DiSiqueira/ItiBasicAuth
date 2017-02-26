@@ -21,9 +21,9 @@ $ go get github.com/DiSiqueira/ItiBasicAuth
 ## Basic usage
 
 ```go
-	r := itinerary.NewRouter()
+r := itinerary.NewRouter()
 
-	r.NewPath(BasicAuthHandler).AddMatcher(itibasicauth.New("disiqueira", "123"))
+r.NewPath(BasicAuthHandler).AddMatcher(itibasicauth.New("disiqueira", "123"))
 ```
 
 ## Full Example
